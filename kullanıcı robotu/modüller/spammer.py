@@ -85,7 +85,7 @@ async def tiny_pic_spam(e):
 @register(outgoing=True, pattern="^.delayspam")
 async def delayspammer(e):
     # Teşekkürler @ReversedPosix
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+    eğer  değil  e . metin [ 0 ]. isalpha () ve  e . metnin [ 0 ] değil  de ( "/" , "#" , "@" , "!" ):
         message = e.text
         messageSplit= message.split(" ", 3)
         spam_delay = float(messageSplit[1])
